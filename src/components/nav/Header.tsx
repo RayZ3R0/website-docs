@@ -11,9 +11,9 @@ export function Header() {
           </Link>
 
           <nav>
-            <ul className="header-nav">
+            <ul className="primary-nav">
               <li>
-                <Link href="/docs" className="nav-link">
+                <Link href="/docs/introduction" className="nav-link">
                   Documentation
                 </Link>
               </li>
@@ -37,6 +37,7 @@ export function Header() {
             target="_blank"
             rel="noopener noreferrer"
             className="nav-link"
+            title="View on GitHub"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -46,6 +47,7 @@ export function Header() {
               className="icon"
               width="20"
               height="20"
+              aria-hidden="true"
             >
               <path
                 strokeLinecap="round"
